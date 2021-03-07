@@ -1,7 +1,7 @@
 #1
 class Vehicle:
     def __init__(self, max_speed, mileage):
-        self.max_speed = mileage
+        self.max_speed = max_speed
         self.mileage = mileage
 
 
@@ -16,13 +16,13 @@ class Bus(Vehicle):
 
 
 #3
-bus = Bus(90, 1200, 54)
-print(type(bus))
-
+school_bus = Bus(90, 1200, 54)
+print(type(school_bus))
+print(isinstance(school_bus, Vehicle))
 print(isinstance(bus, Vehicle))
-
 #4
-print(isinstance(bus, Vehicle))
+
+print(isinstance(school_bus, Vehicle))
 
 #5
 class School:
