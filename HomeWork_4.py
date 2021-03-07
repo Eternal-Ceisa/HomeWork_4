@@ -87,7 +87,7 @@ class City:
         if population > 1500:
             return instance
         else:
-            print('Your city is too small.')
+            return 'Your city is too small.'
 
 #9
     def __str__(self):
